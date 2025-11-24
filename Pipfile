@@ -4,8 +4,21 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+numpy = "*"
+matplotlib = "*"
+rasterio = "*"
+geopandas = "*"
+pyproj = "*"
+shapely = "*"
+pillow = "*"
+gpxpy = "*"
+fastkml = "*"
 
 [dev-packages]
+black = "*"
+flake8 = "*"
+ipython = "*"
+
 
 [requires]
 python_version = "3.10"
