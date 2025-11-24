@@ -8,7 +8,7 @@ from ui.main_view import MainView
 
 def main():
 
-    tile_manager = TileManager("DEM/ESP/")
+    tile_manager = TileManager("data/DEM/ESP/")
     terrain = TerrainAnalysis()
     control = ControlPanel()
     view = MainView(tile_manager, terrain, control)
